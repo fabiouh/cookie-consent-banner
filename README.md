@@ -1,6 +1,11 @@
-# Personal React Boilerplate using JavaScript
+# Cookie Consent Banner by fabiouh
 
-This is the boilerplate i use to start all my projects. It contains all the basic packages i need.
+This is a basic cookie consent prompt i use for my projects.
+
+![Small Dark](https://i.imgur.com/4GBv8Dj.png)
+![Small Light](https://i.imgur.com/brS23cA.png)
+![Large Dark](https://i.imgur.com/c3rApvH.png)
+![Large Light](https://i.imgur.com/Eq1gVAY.png)
 
 ## Installed packages
 
@@ -9,10 +14,15 @@ This is the boilerplate i use to start all my projects. It contains all the basi
 - react-icons
 - chakra-ui
 - emotion
+- react-animations
+- chakra-ui icons
 
 ## How to use
 
-Simply clone this repository and use 'npm install' to install all the necessary packages.
+Copy CookieConsent.jsx into your component directory
+import CookieConsent from './<yourComponentDirectory>/CookieConsent';
+in your App.js:
+<CookieConsent text="This is the text displayed in your cookie consent banner" />
 
 ## Learn More
 
